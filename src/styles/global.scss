@@ -1,0 +1,25 @@
+// cores pra usar #ff6961  #ff574d #ef7771   #ff6347
+
+
+:root{
+    --branco:#f8f8f8;
+    --marrom:#29292e;
+    --vml-padrao:#ff6961;
+    --vml-fraco:#ef7771;
+    --rx-padrao:#8b03ab;
+    --vml-tomato:#ff6347;
+}
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--branco);
+    color: var(--marrom);
+}
+
+body,input,button,textarea{
+    font-family:  400 16px 'roboto', sans-serif;
+}
