@@ -58,21 +58,27 @@
         text-align: center;
 
         >.main-title{
-            margin-bottom: 30px;
+            margin: 30px 0 10px 0;
             transition: 200ms all ease; 
+            left: 0;
+            top:0;
             width: 100%;           
             position: relative;
+           
 
         h1{
-            margin-bottom: 5px;
+            margin-bottom: 2px;
             font-size: 25px;
+            text-align: left;
             width: 100%;
+            font-weight: 700;
+            font-family: 'Poppins', sans-serif;
         
 
             &::after{
                 content: "";
                 position: absolute;
-                left: 35px;
+                left: 0px;
                 bottom: 0;
                 height: 2px;
                 width: 0%;
