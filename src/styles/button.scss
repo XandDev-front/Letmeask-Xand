@@ -24,6 +24,12 @@
         padding-right: 5px;
     }
 
+    &.outlined{
+        background: var(--branco);
+        border: 1px solid var(--vml-padrao);
+        color: var(--vml-padrao);
+    }
+
     &:not(:disabled):hover{
         filter:brightness(0.9);
     }

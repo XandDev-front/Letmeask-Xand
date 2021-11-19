@@ -3,7 +3,7 @@ import {Link , useHistory} from "react-router-dom"
 
 import '../styles/auth.scss';
 
-import {auth, database} from '../services/firebase'
+import {database} from '../services/firebase'
 
 import { Button } from '../components/Button';
 
