@@ -66,10 +66,10 @@
           gap: 8px;
   
           &.liked {
-            color: #835afd;
+            color: var(--vml-padrao);
   
             svg path {
-              stroke: #835afd;
+              stroke: var(--vml-padrao);
             }
           }
         }

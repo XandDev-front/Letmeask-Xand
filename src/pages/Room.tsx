@@ -21,7 +21,7 @@ type RoomParams = {
 export function Room(){
 
     // parâmetro da página armazenado na var
-    const {user} = useAuth();
+    const {user,signInWIthGoogle} = useAuth();
 
     const [newQuestion,setnewQuestion ] = useState('');
 
@@ -112,7 +112,7 @@ export function Room(){
                             </div>)
                         :
                         
-                        (<span>Para enviar uma pergunta, <button> faça seu login.</button></span>)
+                        (<span>Para enviar uma pergunta, <button onClick={signInWIthGoogle}> faça seu login.</button></span>)
                         }
                     
                         <Button type="submit" disabled={!user}>Enviar Pergunta</Button>
